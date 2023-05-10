@@ -1,0 +1,37 @@
+correct data:-
+
+@relation t_id
+@attribute sony{yes,no}
+@attribute bpl{yes,no}
+@attribute lg{yes,no}
+@attribute samsung{yes,no}
+@attribute onida{yes,no}
+@data
+yes,yes,yes,no,no
+no,yes,no,yes,no
+no,yes,no,no,yes
+yes,yes,no,yes,no
+yes,no,no,no,yes
+no,yes,no,no,yes
+yes,no,no,no,yes
+yes,yes,yes,no,yes
+yes,yes,no,no,yes
+
+incorrect data:-
+
+@relation t_id
+@attribute sony{yes,no}
+@attribute bpl{yes,no}
+@attribute lg{yes,no}
+@attribute samsung{yes,no}
+@attribute onida{yes,no}
+@data
+yes,no,yes,no,no
+no,yes,no,yes,no
+no,yes,yes,no,yes
+yes,yes,no,yes,no
+yes,yes,no,no,yes
+no,yes,no,no,yes
+yes,no,no,no,yes
+yes,yes,yes,no,yes
+yes,yes,no,no,yes
