@@ -1,0 +1,10 @@
+avg=c(78,81,82,74,83,82,77)
+totaltime=c(39,37,36,42,35,36,40)
+s1=sd(avg)
+s1
+s2=sd(totaltime)
+s2
+s3=var(avg)
+s3
+s4=var(totaltime)
+s4
